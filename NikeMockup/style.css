@@ -1,0 +1,110 @@
+/* CSS: Is where we style and adjust the elements we created in HTML */
+
+
+@keyframes moveLeft {
+    0%{
+        margin-left:0%;
+    }
+    50%{
+        margin-left:80%;
+        border-width:12px;
+        border:solid green;
+        border-radius:50%;
+    }
+    100%{
+        margin-left:0%;
+    }
+}
+.navbar{
+    border:solid blue;
+    /* height:12vh; */
+    margin:1em;
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainPic{
+    border:solid green;
+    height:45vh;
+    margin:1em;
+}
+.adContainer{
+    border:solid purple;
+    display:flex;
+    /* height:42vh; */
+    margin:1em;
+    color: red;
+}
+.logo{
+    height:45px;
+    /* width:50%; */
+}
+
+.iconParent{
+    /* border:solid red; */
+    margin-top:5px;
+    width:50%;
+    display:flex;
+    justify-content: space-evenly;
+}
+.icon{
+    height:30px;
+}
+.bigPicture{
+    width:100%;
+}
+.picTitle{
+    text-align:center;
+    font-family:serif;
+    color: red;
+}
+.btnContainer{
+    /* border:solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+}
+.download, .login{
+    font-size:19px;
+    background-color:red;
+    color:white;
+    width:33%;
+    border-radius:20px;
+}
+.download:hover, .login:hover{
+    font-size:19px;
+    background-color:red;
+    color:lime;
+    width:33%;
+    border-radius:20px;
+}
+.Wayne{
+    border:solid green;
+    display:flex;
+justify-content:space-evenly;
+
+  
+}
+.Nicki{
+    border:solid salmon;
+    display:flex;
+justify-content:space-evenly;
+
+  
+}
+.Drake{
+    border:solid yellow;
+    display:flex;
+justify-content:space-evenly;
+
+  
+}
+
+.smPic{
+    height:90px;
+}
+
+.wayneSkating{
+    border:solid blue;
+    height:150px;
+    animation: moveLeft ease-in 10s ;
+}
